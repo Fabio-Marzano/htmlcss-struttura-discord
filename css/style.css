@@ -6,6 +6,11 @@
 
 header {
     background-color: lightblue;
+    padding: 15px 0;
+}
+
+footer {
+    background-color: rgba(2, 1, 10, 0.895);
 }
 
 /* LAYOUT CLASSES */
@@ -16,31 +21,59 @@ header {
 }
 
 .container-sm {
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .row {
     display: flex;
 }
-.col-20 {
-    width: 20%;
+.col-15 {
+    width: 15%;
     background-color: orange;
-    height: 50px;
     border: 1px solid black;
+    
 }
+
+.col-16 {
+    width: calc(100 / 6)
+    background-color: lightcyan;
+    border: 1px solid white;
+    height: 500px;
+}
+
+.col-33{
+    width: calc(100 / 6 * 2)
+    background-color: lightcyan;
+    border: 1px solid white;
+    height: 500px;
+}
+
+.col-40 {
+    width: 40%;
+    background-color: pink;
+    border: 1px solid black;
+    height: 500px;
+}
+
 .col-60 {
     width: 60%
+    background-color: blue;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.col-70 {
+    width: 70%;
     background-color: orange;
-    height: 50px;
     border: 1px solid black;
 }
 
 .col-100 {
     width: 100%;
-    background-color: rgb(225, 30, 30);
-    height: 50px;
+    background-color: rgb(255, 5, 255);
     border: 1px solid black;
+    height: 80px ;
 }
 
 /* UTILITY CLASSES */
@@ -57,12 +90,16 @@ header {
     padding: 10px 0;
 }
 
+.py-20 {
+    padding: 20px 0;
+}
+
 
 /* SPECIFIC STYILING SELECTORS AND CLASSES */
 
 
 ul.text-center {
-    list-styile-type: none;
+    list-style-type: none;
 }
 
 ul.text-center li {
@@ -70,10 +107,35 @@ ul.text-center li {
 }
 
 .bg-darkblue {
-    padding: 20px 0;
+    padding: 50px 0;
     background-color: darkblue;
 }
 
+.bg-grey {
+    padding: 50px 0;
+    background-color: grey;
+}
+
+.bg-darkgreen {
+    background-color: darkgreen;
+}
+
+.bg-lightaqua {
+    background-color: aquamarine;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+.top-footer {
+    padding: 5px 0 40px 0;
+    border-bottom: 1px solid grey;
+}
+
+.bottom-footer {
+    padding-top: 25px;
+}
 
 
 
