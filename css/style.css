@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightblue;
+}
+
+/* LAYOUT CLASSES */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+.col-20 {
+    width: 20%;
+    background-color: orange;
+    height: 50px;
+    border: 1px solid black;
+}
+.col-60 {
+    width: 60%
+    background-color: orange;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.col-100 {
+    width: 100%;
+    background-color: rgb(225, 30, 30);
+    height: 50px;
+    border: 1px solid black;
+}
+
+/* UTILITY CLASSES */
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+
+/* SPECIFIC STYILING SELECTORS AND CLASSES */
+
+
+ul.text-center {
+    list-styile-type: none;
+}
+
+ul.text-center li {
+    display: inline-block;
+}
+
+.bg-darkblue {
+    padding: 20px 0;
+    background-color: darkblue;
+}
+
+
+
+
+
